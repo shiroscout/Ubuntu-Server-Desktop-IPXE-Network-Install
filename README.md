@@ -9,7 +9,7 @@
 # Question before we begin...Are all services working on Ubuntu system setup as your server?
 ### Ubuntu Server Setup
 ### https://www.server-world.info/en/note?os=Ubuntu_23.04&p=download
-###Ubuntu Server documentation | Ubuntu![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/77e35fc6-07c4-4e0d-9710-a07d794f71dc)
+### Ubuntu Server documentation | Ubuntu![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/77e35fc6-07c4-4e0d-9710-a07d794f71dc)
 
 # Cockpit Server Dashboard - Helpful Tool for easily monitoring services
 
