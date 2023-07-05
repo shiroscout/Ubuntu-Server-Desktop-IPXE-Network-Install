@@ -8,11 +8,12 @@
 
 # Question before we begin...Are all services working on Ubuntu system setup as your server?
 ### Ubuntu Server Setup
+### Official Server Docs
+### https://ubuntu.com/server/docs
 ### https://www.server-world.info/en/note?os=Ubuntu_23.04&p=download
-### Ubuntu Server documentation | Ubuntu![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/77e35fc6-07c4-4e0d-9710-a07d794f71dc)
+
 
 # Cockpit Server Dashboard - Helpful Tool for easily monitoring services
-
 ![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/bca85281-cd46-42fc-97ec-5e17559560ac)
 
 ### DHCP and Apache2 are required, unless you are tweaking your setup and possibly using TFTP and NFS
@@ -66,7 +67,6 @@
 ### INITRAMFS
 ### How to build an initramfs using Dracut on Linux - Linux Tutorials - Learn Linux Configuration
 ### ![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/9d2c9e2f-1f4f-4475-a8b9-688557f024ab)
-
 
 ### Notes: 
 ### The default script files for IPXE are .pxe file extensions.
