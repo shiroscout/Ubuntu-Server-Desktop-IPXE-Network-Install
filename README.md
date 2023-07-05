@@ -13,6 +13,8 @@
 ### See Example and explanation. Only 2 folders and 2 files are required. All other files and folders can be removed.
 ![Screenshot 2023-07-05 172601](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/d963ac4f-6a19-4694-8e4d-e2ed70ba3940)
 
+### Note - If you try IPXE booting and get errors, go to IPXE site for reference on the errors. Also, first thing, check permissions on your uploaded files and folders.
+### Can be RW-R-R 644 and if your root or user you are the owner. Could be different or better options, but I'm not a Linux Guru.
 # Question before we begin...Are all services working on Ubuntu system setup as your server?
 ### Ubuntu Server Setup
 ### Official Server Docs
@@ -33,6 +35,8 @@
 ### Web Server root serve folders is : /netboot/boot/
 ### NFS mount is /netboot/boot/
 ### Inside boot folder is : ubuntu folder
+![Screenshot 2023-07-05 172540](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/f86cb515-a13c-4a6e-87c5-73838b5172ec)
+
 ### Sub-folders of ubuntu are Ubuntu "Versions" folders. Additional folders such as Desktop and Server may be very useful.
 
 ### TFTP Server
