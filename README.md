@@ -1,10 +1,10 @@
 # Ubuntu-Server-Desktop-IPXE-Network-Install
-# Workspace - Ubuntu 23.04
-# Test Environment: Hyper-V Lab
-# Network: Isolated Lan, Shared External NIC; 1 2.5GB USB Nic
-# Server has static IP Address, Clients getting DHCP Address from Server
-# Services: DHCP, NFS, TFTP, Apache2, s/FTP
-# Tested on: Ubuntu 23.04, 22.04.2 LTS, 20.04.6 LTS, 18.04.6 LTS
+### Workspace - Ubuntu 23.04
+### Test Environment: Hyper-V Lab
+### Network: Isolated Lan, Shared External NIC; 1 2.5GB USB Nic
+### Server has static IP Address, Clients getting DHCP Address from Server
+### Services: DHCP, NFS, TFTP, Apache2, s/FTP
+### Tested on: Ubuntu 23.04, 22.04.2 LTS, 20.04.6 LTS, 18.04.6 LTS
 
 # Question before we begin...Are all services working on Ubuntu system setup as your server?
 # Ubuntu Server Setup
