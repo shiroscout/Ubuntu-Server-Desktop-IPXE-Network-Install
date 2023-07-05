@@ -12,7 +12,7 @@
 ###Ubuntu Server documentation | Ubuntu![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/77e35fc6-07c4-4e0d-9710-a07d794f71dc)
 
 # Cockpit Server Dashboard - Helpful Tool for easily monitoring services
-### https://cockpit-project.org/running
+
 ![image](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/bca85281-cd46-42fc-97ec-5e17559560ac)
 
 ### DHCP and Apache2 are required, unless you are tweaking your setup and possibly using TFTP and NFS
