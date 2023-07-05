@@ -24,15 +24,30 @@
 ### A webserver needs setup with a root directory to serve the files. I've cheated and setup my web server and NFS Server to use the same folders.
 ### Web Server root serve folders is : /netboot/boot/
 ### NFS mount is /netboot/boot/
-###inside boot folder is : ubuntu folder
+### Inside boot folder is : ubuntu folder
 ### Sub-folders of ubuntu are Ubuntu "Versions" folders. Additional folders such as Desktop and Server may be very useful.
 
+### TFTP Server
+### In the TFTP folder for files to server, only one file is needed. IPXE.PXE
+### See Example: This will point the "PXE Boot and TFTP" to "IPXE and HTTP" and you should be able to continue to completion of installation with this condition.
 # !IMPORTANT! Only 1 edit in the booting.php should be required for all Ubuntu Distros tested in this git.
+![Screenshot 2023-07-05 172833](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/52402296-975c-4a91-975e-a76b059b3bed)
+
 ### Line: IMGARGS
 ### Parameter: nfsroot
 ### Change needed? point directory to version of Ubuntu you want to install.
 ### Examples: nfsroot=xxx.xxx.xxx.xxx:<web root folder>/<path/to/ditro/folder>
 ### Examples: nfsroot=10.10.10.10:/netboot/boot/ubuntu/18.04LTS
+
+![Screenshot 2023-07-05 172452](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/c5522b3a-0f38-4745-91fc-b871c7000fa2)
+
+![Screenshot 2023-07-05 172523](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/a6498e78-ba6c-4526-99a0-3d4da1b5d303)
+
+![Screenshot 2023-07-05 172540](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/1eddc2af-26be-4f25-af58-75e2f8b2a5de)
+
+![Screenshot 2023-07-05 172601](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/830e9b43-34a9-4b63-9650-c48f02e1a9d1)
+
+![Screenshot 2023-07-05 172628](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/1916f552-7b2a-445b-aaeb-bbdae70ea9e8)
 
 ### References:
 ### References: IPXE
@@ -57,4 +72,5 @@
 ### The default script files for IPXE are .pxe file extensions.
 ### We can use .PXE files for some use cases and we can rename them to .PHP file extensions without issues and the IPXE instructions are read natively by IPXE without issues.
 ### With the booting.PHP file this is exactly what we are doing. The web server does not know what to do with a .PXE file, so we can rename it and the websever will allow the file to be served, and IPXE will handle the ### instructions in the file.
+
 
