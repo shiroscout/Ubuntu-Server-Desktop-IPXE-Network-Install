@@ -42,6 +42,10 @@
 ### TFTP Server
 ### In the TFTP folder for files to server, only one file is needed. IPXE.PXE
 ### See Example: This will point the "PXE Boot and TFTP" to "IPXE and HTTP" and you should be able to continue to completion of installation with this condition.
+
+### Attached to this repository is a sample file. Change the IP Address and the folder path to the Ubuntu Ditribution files as need, save to root web server folder.
+### Note: See example of TFTP IPXE.PXE file. This file will need to be created and put in the TFTP root folder serve directory.
+
 # !IMPORTANT! Only 1 edit in the booting.php should be required for all Ubuntu Distros tested in this git.
 ### Line: IMGARGS
 ### Parameter: nfsroot
