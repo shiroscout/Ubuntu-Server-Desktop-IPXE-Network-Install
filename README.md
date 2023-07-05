@@ -8,6 +8,10 @@
 
 ### Ubuntu Server Mirros for Downloads
 ### https://launchpad.net/ubuntu/+cdmirrors
+### Download desired ISO image
+### Copy ISO Files to server web server root folder
+### See Example and explanation. Only 2 folders and 2 files are required. All other files and folders can be removed.
+![Screenshot 2023-07-05 172601](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/d963ac4f-6a19-4694-8e4d-e2ed70ba3940)
 
 # Question before we begin...Are all services working on Ubuntu system setup as your server?
 ### Ubuntu Server Setup
