@@ -6,6 +6,9 @@
 ### Services: DHCP, NFS, TFTP, Apache2, s/FTP
 ### Tested on: Ubuntu 23.04, 22.04.2 LTS, 20.04.6 LTS, 18.04.6 LTS
 
+### Ubuntu Server Mirros for Downloads
+### https://launchpad.net/ubuntu/+cdmirrors
+
 # Question before we begin...Are all services working on Ubuntu system setup as your server?
 ### Ubuntu Server Setup
 ### Official Server Docs
@@ -32,13 +35,15 @@
 ### In the TFTP folder for files to server, only one file is needed. IPXE.PXE
 ### See Example: This will point the "PXE Boot and TFTP" to "IPXE and HTTP" and you should be able to continue to completion of installation with this condition.
 # !IMPORTANT! Only 1 edit in the booting.php should be required for all Ubuntu Distros tested in this git.
-![Screenshot 2023-07-05 172833](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/52402296-975c-4a91-975e-a76b059b3bed)
-
 ### Line: IMGARGS
 ### Parameter: nfsroot
 ### Change needed? point directory to version of Ubuntu you want to install.
 ### Examples: nfsroot=xxx.xxx.xxx.xxx:<web root folder>/<path/to/ditro/folder>
 ### Examples: nfsroot=10.10.10.10:/netboot/boot/ubuntu/18.04LTS
+### See Example:
+![Screenshot 2023-07-05 172833](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/52402296-975c-4a91-975e-a76b059b3bed)
+
+
 
 ![Screenshot 2023-07-05 172452](https://github.com/shiroscout/Ubuntu-Server-Desktop-IPXE-Network-Install/assets/124478493/c5522b3a-0f38-4745-91fc-b871c7000fa2)
 
